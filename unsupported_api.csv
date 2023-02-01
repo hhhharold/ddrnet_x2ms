@@ -1,0 +1,2 @@
+File,Start Line,End Line,Api,Type,Tips
+model.py,9,9,torch.nn.SyncBatchNorm,UNSUPPORTED,"""torch.nn.SyncBatchNorm"" is not supported."

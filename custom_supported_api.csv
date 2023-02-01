@@ -1,0 +1,10 @@
+File,Start Line,End Line,Api,Type,Tips
+model.py,161,161,torch.nn.functional.interpolate,CUSTOM_SUPPORTED,"""torch.nn.functional.interpolate"" has no corresponding api in MindSpore, will be converted to adapted api ""x2ms_adapter.nn_functional.interpolate"" by x2mindspore."
+model.py,164,164,torch.nn.functional.interpolate,CUSTOM_SUPPORTED,"""torch.nn.functional.interpolate"" has no corresponding api in MindSpore, will be converted to adapted api ""x2ms_adapter.nn_functional.interpolate"" by x2mindspore."
+model.py,167,167,torch.nn.functional.interpolate,CUSTOM_SUPPORTED,"""torch.nn.functional.interpolate"" has no corresponding api in MindSpore, will be converted to adapted api ""x2ms_adapter.nn_functional.interpolate"" by x2mindspore."
+model.py,170,170,torch.nn.functional.interpolate,CUSTOM_SUPPORTED,"""torch.nn.functional.interpolate"" has no corresponding api in MindSpore, will be converted to adapted api ""x2ms_adapter.nn_functional.interpolate"" by x2mindspore."
+model.py,197,197,torch.nn.functional.interpolate,CUSTOM_SUPPORTED,"""torch.nn.functional.interpolate"" has no corresponding api in MindSpore, will be converted to adapted api ""x2ms_adapter.nn_functional.interpolate"" by x2mindspore."
+model.py,313,313,torch.nn.functional.interpolate,CUSTOM_SUPPORTED,"""torch.nn.functional.interpolate"" has no corresponding api in MindSpore, will be converted to adapted api ""x2ms_adapter.nn_functional.interpolate"" by x2mindspore."
+model.py,325,325,torch.nn.functional.interpolate,CUSTOM_SUPPORTED,"""torch.nn.functional.interpolate"" has no corresponding api in MindSpore, will be converted to adapted api ""x2ms_adapter.nn_functional.interpolate"" by x2mindspore."
+model.py,331,331,torch.nn.functional.interpolate,CUSTOM_SUPPORTED,"""torch.nn.functional.interpolate"" has no corresponding api in MindSpore, will be converted to adapted api ""x2ms_adapter.nn_functional.interpolate"" by x2mindspore."
+model.py,347,347,torch.load,CUSTOM_SUPPORTED,"The corresponding api of ""torch.load"" is ""mindspore.load_checkpoint"", will be converted to ""x2ms_adapter.load"" by x2mindspore."

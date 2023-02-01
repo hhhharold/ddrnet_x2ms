@@ -1,0 +1,9 @@
+{
+	"type":"Ascend Operator",
+	"project_type":"TBE Operator V2",
+	"framework":"PyTorch",
+	"project_desc":"Operator Project",
+	"target":"",
+	"target_id":"",
+	"adk_version":"1.84.T13.0.B228"
+}

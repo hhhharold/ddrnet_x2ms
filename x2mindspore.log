@@ -1,0 +1,106 @@
+2023-02-01 09:43:03 [INFO]    X2MindSpore start working now, please wait for a moment.
+2023-02-01 09:43:03 [INFO]    Analysis start...
+2023-02-01 09:43:03 [INFO]    [  0.00%] .project is not a python script, skip.
+2023-02-01 09:43:03 [INFO]    [  0.00%] Start analysis inference.py.
+2023-02-01 09:43:03 [INFO]    [  0.00%] Line: 26 ApiType: SUPPORTED Message: The corresponding api of "torch.from_numpy" is "mindspore.tensor.from_numpy", will be converted to "x2ms_adapter.from_numpy" by x2mindspore.
+2023-02-01 09:43:03 [INFO]    [ 50.00%] Analysis inference.py complete.
+2023-02-01 09:43:03 [INFO]    [ 50.00%] x2mindspore.log is not a python script, skip.
+2023-02-01 09:43:03 [INFO]    [ 50.00%] Start analysis model.py.
+2023-02-01 09:43:04 [WARNING] [ 50.00%] Line: 9 ApiType: UNSUPPORTED Message: "torch.nn.SyncBatchNorm" is not supported.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 15 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 19 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Module" is "mindspore.nn.Cell", will be converted to "nn.Cell" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 26 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 53 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Module" is "mindspore.nn.Cell", will be converted to "nn.Cell" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 58 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 60 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 63 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 66 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 94 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Module" is "mindspore.nn.Cell", will be converted to "nn.Cell" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 97 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 97 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.AvgPool2d" is "mindspore.nn.AvgPool2d", will be converted to "x2ms_nn.AvgPool2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 99 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 100 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 102 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 102 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.AvgPool2d" is "mindspore.nn.AvgPool2d", will be converted to "x2ms_nn.AvgPool2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 104 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 105 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 107 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 107 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.AvgPool2d" is "mindspore.nn.AvgPool2d", will be converted to "x2ms_nn.AvgPool2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 109 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 110 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 112 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 112 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.AdaptiveAvgPool2d" is "mindspore.ops.AdaptiveAvgPool2D", will be converted to "x2ms_nn.AdaptiveAvgPool2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 114 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 115 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 117 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 119 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 120 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 122 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 124 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 125 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 127 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 129 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 130 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 132 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 134 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 135 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 137 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 139 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 140 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 142 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 144 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 145 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 147 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 149 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 150 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [WARNING] [ 50.00%] Line: 161 ApiType: CUSTOM_SUPPORTED Message: "torch.nn.functional.interpolate" has no corresponding api in MindSpore, will be converted to adapted api "x2ms_adapter.nn_functional.interpolate" by x2mindspore.
+2023-02-01 09:43:04 [WARNING] [ 50.00%] Line: 164 ApiType: CUSTOM_SUPPORTED Message: "torch.nn.functional.interpolate" has no corresponding api in MindSpore, will be converted to adapted api "x2ms_adapter.nn_functional.interpolate" by x2mindspore.
+2023-02-01 09:43:04 [WARNING] [ 50.00%] Line: 167 ApiType: CUSTOM_SUPPORTED Message: "torch.nn.functional.interpolate" has no corresponding api in MindSpore, will be converted to adapted api "x2ms_adapter.nn_functional.interpolate" by x2mindspore.
+2023-02-01 09:43:04 [WARNING] [ 50.00%] Line: 170 ApiType: CUSTOM_SUPPORTED Message: "torch.nn.functional.interpolate" has no corresponding api in MindSpore, will be converted to adapted api "x2ms_adapter.nn_functional.interpolate" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 174 ApiType: SUPPORTED Message: The corresponding api of "torch.cat" is "mindspore.ops.Concat", will be converted to "x2ms_adapter.cat" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 178 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Module" is "mindspore.nn.Cell", will be converted to "nn.Cell" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 183 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 185 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 186 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [WARNING] [ 50.00%] Line: 197 ApiType: CUSTOM_SUPPORTED Message: "torch.nn.functional.interpolate" has no corresponding api in MindSpore, will be converted to adapted api "x2ms_adapter.nn_functional.interpolate" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 203 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Module" is "mindspore.nn.Cell", will be converted to "nn.Cell" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 211 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 212 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 214 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 215 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 217 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 220 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 226 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 227 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 231 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 232 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 236 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 237 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 241 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 242 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 244 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.ReLU" is "mindspore.nn.ReLU", will be converted to "x2ms_nn.ReLU" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 245 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 266 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 267 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.init.kaiming_normal_" is "mindspore.common.initializer.HeNormal", will be converted to "x2ms_adapter.nn_init.kaiming_normal_" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 269 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.init.constant_" is "mindspore.common.initializer.Constant", will be converted to "x2ms_adapter.nn_init.constant_" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 270 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.init.constant_" is "mindspore.common.initializer.Constant", will be converted to "x2ms_adapter.nn_init.constant_" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 276 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 277 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Conv2d" is "mindspore.nn.Conv2d", will be converted to "x2ms_nn.Conv2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 279 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.BatchNorm2d" is "mindspore.nn.BatchNorm2d", will be converted to "x2ms_nn.BatchNorm2d" by x2mindspore.
+2023-02-01 09:43:04 [INFO]    [ 50.00%] Line: 291 ApiType: SUPPORTED Message: The corresponding api of "torch.nn.Sequential" is "mindspore.nn.SequentialCell", will be converted to "x2ms_nn.Sequential" by x2mindspore.
+2023-02-01 09:43:04 [WARNING] [ 50.00%] Line: 313 ApiType: CUSTOM_SUPPORTED Message: "torch.nn.functional.interpolate" has no corresponding api in MindSpore, will be converted to adapted api "x2ms_adapter.nn_functional.interpolate" by x2mindspore.
+2023-02-01 09:43:04 [WARNING] [ 50.00%] Line: 325 ApiType: CUSTOM_SUPPORTED Message: "torch.nn.functional.interpolate" has no corresponding api in MindSpore, will be converted to adapted api "x2ms_adapter.nn_functional.interpolate" by x2mindspore.
+2023-02-01 09:43:04 [WARNING] [ 50.00%] Line: 331 ApiType: CUSTOM_SUPPORTED Message: "torch.nn.functional.interpolate" has no corresponding api in MindSpore, will be converted to adapted api "x2ms_adapter.nn_functional.interpolate" by x2mindspore.
+2023-02-01 09:43:04 [WARNING] [ 50.00%] Line: 347 ApiType: CUSTOM_SUPPORTED Message: The corresponding api of "torch.load" is "mindspore.load_checkpoint", will be converted to "x2ms_adapter.load" by x2mindspore.
+2023-02-01 09:43:06 [INFO]    [100.00%] Analysis model.py complete.
+2023-02-01 09:43:06 [INFO]    [100.00%] ddrnet_23.pth is not a python script, skip.
+2023-02-01 09:43:06 [INFO]    [100.00%] test.png is not a python script, skip.
+2023-02-01 09:43:06 [INFO]    [100.00%] __pycache__/model.cpython-37.pyc is not a python script, skip.
+2023-02-01 09:43:06 [INFO]    [100.00%] .idea/modules.xml is not a python script, skip.
+2023-02-01 09:43:06 [INFO]    [100.00%] .idea/ddrnet.iml is not a python script, skip.
+2023-02-01 09:43:06 [INFO]    [100.00%] .idea/misc.xml is not a python script, skip.
+2023-02-01 09:43:06 [INFO]    [100.00%] .idea/.gitignore is not a python script, skip.
+2023-02-01 09:43:06 [INFO]    [100.00%] .idea/workspace.xml is not a python script, skip.
+2023-02-01 09:43:06 [INFO]    [100.00%] .idea/inspectionProfiles/Project_Default.xml is not a python script, skip.
+2023-02-01 09:43:06 [INFO]    Adapter package has been copy to the output dir, please add /home/haozhe/Desktop/project/huawei/ddrnet_converted/ddrnet_x2ms to PYTHONPATH before training.
+2023-02-01 09:43:06 [INFO]    X2MindSpore run success, welcome to the next use.
